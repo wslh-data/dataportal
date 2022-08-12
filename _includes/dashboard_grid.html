@@ -10,7 +10,7 @@
             <div class="row">
             {% for dashboard in site.dashboards %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="{{ site.baseurl }}{{ dashboard.url }}" class="portfolio-link">
+                    <a href="{{ dashboard.url | prepend: site.baseurl }}" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
