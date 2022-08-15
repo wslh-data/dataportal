@@ -25,11 +25,11 @@ Proin lacinia semper bibendum. Quisque nec luctus ex, non venenatis ante. Cras u
 
 # Part 1
 
-<iframe height="600" width="100%" frameborder="no" src="http://rshiny-test-lb-453016907.us-east-2.elb.amazonaws.com/seqTotal"> </iframe>
+<iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTotal"> </iframe>
 
 # Part 2
 
-<iframe height="600" width="100%" frameborder="no" src="http://rshiny-test-lb-453016907.us-east-2.elb.amazonaws.com/seqTime"> </iframe>
+<iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTime"> </iframe>
 
 # Part 3
 
