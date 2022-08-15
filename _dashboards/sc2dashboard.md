@@ -7,15 +7,16 @@ img: sarscov2_virus.jpg
 thumbnail: sarscov2_virus.jpg
 alt: SARS-CoV-2 Virus
 anchors: [
-Part 1,
-Part 2,
-Part 3
+Variant Report,
+Sequencing Report,
+Geographic Report,
+Additional Resources
 ]
 ---
-# Genomic Variants
+# Variant Report
 Plot showing the variants of concern with a search box that would enable changing the variants displayed.
 
-# Genomic Sequencing in Wisconsin
+# Sequencing Report
 <div style="float:left;width:50%">
     <iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTotal"> </iframe>
 </div>
@@ -23,8 +24,15 @@ Plot showing the variants of concern with a search box that would enable changin
     <iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTime"> </iframe>
 </div>
 
-# Geographic Sequencing 
+# Geographic Report 
 
+# Additional Resources
+
+- [CDC COVID Data Tracker](https://covid.cdc.gov/covid-data-tracker/#variant-proportions)
+- [Outbreak.info](https://outbreak.info/)
+- [NextStrain.org](https://nextstrain.org/ncov/gisaid/global/6m)
+- [CoVariants](https://covariants.org/)
+- [cov-lineages.org](https://cov-lineages.org/)
 ---
 
 GISAID data provided on this website are subject to GISAID’s [Terms and Conditions](https://gisaid.org/terms-of-use/)
