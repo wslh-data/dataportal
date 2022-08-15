@@ -57,6 +57,16 @@ h6 {
     font-weight: 700;
 }
 
+/* Give us some space above headers when linking down into a page */
+h1::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -125px; 
+    height: 125px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
 .img-centered {
     margin: 0 auto;
 }
@@ -272,11 +282,15 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/data_network.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -285,10 +299,10 @@ header {
     -o-background-size: cover;
 }
 
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
+.background-tint {
+    background-color: rgba(0,0,0,.5); /* Tint color */
+    background-blend-mode: multiply;
+  }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
@@ -306,6 +320,22 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
+
+header .intro-text .dash-title {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+header .intro-text .dash-subtitle {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 22px;
+    line-height: 22px;
+}
+
 
 @media(min-width:768px) {
     header .intro-text {
@@ -328,6 +358,21 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+
+    header .intro-text .dash-title {
+        margin-bottom: 25px;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+
+    header .intro-text .dash-subtitle {
+        margin-bottom: 50px;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 30px;
+        line-height: 30px;
     }
 }
 

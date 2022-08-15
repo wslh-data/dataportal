@@ -1,46 +1,36 @@
 ---
-title: SARS-CoV-2 Genomic Dashboard
-subtitle:
+title: Wisconsin SARS-CoV-2 (hCoV-19) Genomic Dashboard
+subtitle: "enabled by data from <a href='https://www.gisaid.org/'><img src='https://www.gisaid.org/fileadmin/gisaid/img/schild.png' alt='GISAID' style='width:100px'></a>"
 layout: dashboard
 dashboard-id: 1
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
+img: sarscov2_virus.jpg
+thumbnail: sarscov2_virus.jpg
+alt: SARS-CoV-2 Virus
 anchors: [
 Part 1,
 Part 2,
 Part 3
 ]
 ---
-# THIS IS A TEST
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at risus justo. Sed rutrum arcu ac elementum sollicitudin. Nam ut erat eu sapien gravida pretium. Nam bibendum libero arcu, a molestie diam consectetur sit amet. Quisque tincidunt felis mi, id sollicitudin quam feugiat a. Vestibulum id finibus sapien. Vestibulum eu faucibus diam. Nunc tempus pulvinar nulla, ac consequat ligula aliquam nec. Donec sagittis metus pellentesque augue facilisis feugiat.
+# Genomic Variants
+Plot showing the variants of concern with a search box that would enable changing the variants displayed.
 
-Duis quis velit a arcu finibus luctus vel sed magna. Nam placerat metus justo, a commodo purus maximus varius. Quisque nec porta arcu, nec condimentum neque. Pellentesque nunc nisl, molestie ut risus non, mollis egestas tortor. In egestas fermentum dolor vitae convallis. Sed gravida elementum magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+# Genomic Sequencing in Wisconsin
+<div style="float:left;width:50%">
+    <iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTotal"> </iframe>
+</div>
+<div style="float:right;width:50%">
+    <iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTime"> </iframe>
+</div>
 
-Aliquam eu tristique ante. Integer euismod luctus accumsan. Duis vel finibus sapien. Mauris at ante ultrices, pellentesque erat et, tempus magna. Sed odio mi, finibus a gravida eget, mattis ut mauris. Maecenas eu pellentesque libero. Nulla vestibulum enim dui, id lobortis quam rutrum nec. Aliquam et nibh scelerisque, aliquet lorem in, consectetur dolor. Proin in eros ex. Quisque at velit quam. Maecenas vitae semper libero. Suspendisse hendrerit neque quis ligula rutrum, vitae egestas magna dictum. Etiam elementum id massa finibus mollis. Cras vel lorem nec magna feugiat pretium sit amet sit amet ante.
+# Geographic Sequencing 
 
-Suspendisse congue orci id efficitur scelerisque. Etiam lacinia enim sit amet viverra vulputate. Duis vel pellentesque mi, vitae viverra ipsum. Sed eleifend eget mi id pulvinar. Praesent in ex varius, consequat leo aliquet, fermentum metus. Morbi lacinia erat sapien, a laoreet quam accumsan id. Maecenas quis dolor massa. Curabitur molestie risus ante, sit amet sodales augue varius nec. In egestas elementum mi id pretium. Pellentesque blandit augue nisi, ac hendrerit quam venenatis sit amet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus fringilla enim magna, non suscipit purus feugiat ut. Praesent et tellus nec justo vehicula semper. Mauris eget tincidunt felis. Maecenas vestibulum quam vel condimentum bibendum. Nam mattis ullamcorper erat.
+---
 
-Proin lacinia semper bibendum. Quisque nec luctus ex, non venenatis ante. Cras ut rutrum quam. Sed ante dui, semper et leo et, sodales consequat erat. Mauris aliquet mauris sapien, eget ullamcorper enim pellentesque ut. Etiam non nisl eleifend, mattis diam eu, dictum dui. Ut sit amet sollicitudin dolor. Aliquam erat volutpat. Cras nisl leo, rutrum vel erat sit amet, porta ullamcorper enim. Vestibulum pellentesque lacinia laoreet.
+GISAID data provided on this website are subject to GISAID’s [Terms and Conditions](https://gisaid.org/terms-of-use/)
 
-# Part 1
+We are grateful to the data contributors who shared the data used in this Web Application via the GISAID Initiative: the Authors, the Originating Laboratories responsible for obtaining the specimens, and the Submitting Laboratories that generated the genetic sequences and metadata.
 
-<iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTotal"> </iframe>
+- (a) Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID’s innovative contribution to global health. Global Challenges, 1:33-46. DOI: [10.1002/gch2.1018](https://doi.org/10.1002/gch2.1018) PMCID: [31565258](https://pubmed.ncbi.nlm.nih.gov/31565258/)
 
-# Part 2
-
-<iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTime"> </iframe>
-
-# Part 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at risus justo. Sed rutrum arcu ac elementum sollicitudin. Nam ut erat eu sapien gravida pretium. Nam bibendum libero arcu, a molestie diam consectetur sit amet. Quisque tincidunt felis mi, id sollicitudin quam feugiat a. Vestibulum id finibus sapien. Vestibulum eu faucibus diam. Nunc tempus pulvinar nulla, ac consequat ligula aliquam nec. Donec sagittis metus pellentesque augue facilisis feugiat.
-
-Duis quis velit a arcu finibus luctus vel sed magna. Nam placerat metus justo, a commodo purus maximus varius. Quisque nec porta arcu, nec condimentum neque. Pellentesque nunc nisl, molestie ut risus non, mollis egestas tortor. In egestas fermentum dolor vitae convallis. Sed gravida elementum magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Aliquam eu tristique ante. Integer euismod luctus accumsan. Duis vel finibus sapien. Mauris at ante ultrices, pellentesque erat et, tempus magna. Sed odio mi, finibus a gravida eget, mattis ut mauris. Maecenas eu pellentesque libero. Nulla vestibulum enim dui, id lobortis quam rutrum nec. Aliquam et nibh scelerisque, aliquet lorem in, consectetur dolor. Proin in eros ex. Quisque at velit quam. Maecenas vitae semper libero. Suspendisse hendrerit neque quis ligula rutrum, vitae egestas magna dictum. Etiam elementum id massa finibus mollis. Cras vel lorem nec magna feugiat pretium sit amet sit amet ante.
-
-Suspendisse congue orci id efficitur scelerisque. Etiam lacinia enim sit amet viverra vulputate. Duis vel pellentesque mi, vitae viverra ipsum. Sed eleifend eget mi id pulvinar. Praesent in ex varius, consequat leo aliquet, fermentum metus. Morbi lacinia erat sapien, a laoreet quam accumsan id. Maecenas quis dolor massa. Curabitur molestie risus ante, sit amet sodales augue varius nec. In egestas elementum mi id pretium. Pellentesque blandit augue nisi, ac hendrerit quam venenatis sit amet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus fringilla enim magna, non suscipit purus feugiat ut. Praesent et tellus nec justo vehicula semper. Mauris eget tincidunt felis. Maecenas vestibulum quam vel condimentum bibendum. Nam mattis ullamcorper erat.
-
-Proin lacinia semper bibendum. Quisque nec luctus ex, non venenatis ante. Cras ut rutrum quam. Sed ante dui, semper et leo et, sodales consequat erat. Mauris aliquet mauris sapien, eget ullamcorper enim pellentesque ut. Etiam non nisl eleifend, mattis diam eu, dictum dui. Ut sit amet sollicitudin dolor. Aliquam erat volutpat. Cras nisl leo, rutrum vel erat sit amet, porta ullamcorper enim. Vestibulum pellentesque lacinia laoreet.
-
-
+- (b) Shu, Y., McCauley, J. (2017) GISAID: From vision to reality. EuroSurveillance, 22(13) DOI: [10.2807/1560-7917.ES.2017.22.13.30494](https://doi.org/10.2807/1560-7917.es.2017.22.13.30494) PMCID: [PMC5388101](https://pubmed.ncbi.nlm.nih.gov/PMC5388101/)

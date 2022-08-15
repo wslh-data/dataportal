@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="img/logos/{{ site.logo }}" class="img-logo img-centered" alt="{{ site.logo_alt }}">
+                <a href="http://www.slh.wisc.edu"><img src="img/logos/{{ site.logo }}" class="img-logo img-centered" alt="{{ site.logo_alt }}"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,6 +17,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{site.baseurl}}/">Home</a>
                     </li>
                     {% for anchor in page.anchors %}
                     <li>
@@ -31,12 +34,11 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header style="background-image: url('{{ site.baseurl }}/img/dashboards/{{page.img}}');" class="background-tint">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Wisconsin State Laboratory of Hygiene</div>
-                <div class="intro-heading">Data Portal</div>
-                <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="dash-title">{{page.title}}</div>
+                <div class="dash-subtitle">{{page.subtitle}}</div>
             </div>
         </div>
     </header>

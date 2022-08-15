@@ -6,7 +6,11 @@
 
     <body id="page-top" class="index">
     {% include dashboard_header.html %}
-    {{ page.content }}
+    <section>
+      <div class="container">
+        {{ page.content }}
+      </div>
+    </section>
     {% include footer.html %}
     {% include js.html %}
 
