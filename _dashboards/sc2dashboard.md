@@ -13,18 +13,24 @@ Geographic Report,
 Additional Resources
 ]
 ---
+
 # Variant Report
-Plot showing the variants of concern with a search box that would enable changing the variants displayed.
+<iframe height="725" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/variants"><p>Your browser does not support iframes.</p></iframe>
+
+The SARS-CoV-2 virus like all viruses continues to change over time. As the virus replicates and makes copies of itself changes or mutations are introduced. When a virus emerges with one or several new changes it is referred to as a variant of the original virus. Changes in the virus can sometimes lead to a new variant that is better adapted to its environment. The process of the virus changing over time and the selection of new better adapted variants is called virus evolution.
+
+Enabling communication of viral variants requires a process of naming and classifying the variants. Several methods for SARS-CoV-2 variant classification have been developed but the most widely adopted is the [Pangolin](https://cov-lineages.org/resources/pangolin.html) naming scheme, which provides a dynamic naming approach that can adapt to the evolving virus.
 
 # Sequencing Report
 <div style="float:left;width:50%">
-    <iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTotal"> </iframe>
+    <iframe loading="lazy" height="600" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/seqTotal"><p>Your browser does not support iframes.</p></iframe>
 </div>
 <div style="float:right;width:50%">
-    <iframe height="600" width="100%" frameborder="no" src="https://wslhdatacloud.net/seqTime"> </iframe>
+    <iframe loading="lazy" height="600" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/seqTime"><p>Your browser does not support iframes.</p></iframe>
 </div>
 
 # Geographic Report 
+<iframe loading="lazy" height="650" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/varGeo"><p>Your browser does not support iframes.</p></iframe>
 
 # Additional Resources
 
@@ -33,6 +39,7 @@ Plot showing the variants of concern with a search box that would enable changin
 - [NextStrain.org](https://nextstrain.org/ncov/gisaid/global/6m)
 - [CoVariants](https://covariants.org/)
 - [cov-lineages.org](https://cov-lineages.org/)
+
 ---
 
 GISAID data provided on this website are subject to GISAID’s [Terms and Conditions](https://gisaid.org/terms-of-use/)
