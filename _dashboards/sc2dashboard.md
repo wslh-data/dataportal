@@ -23,14 +23,14 @@ Enabling communication of viral variants requires a process of naming and classi
 
 # Sequencing Report
 <div style="float:left;width:50%">
-    <iframe loading="lazy" height="600" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/seqTotal"><p>Your browser does not support iframes.</p></iframe>
+    <iframe loading="lazy" height="650" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/seqTotal"><p>Your browser does not support iframes.</p></iframe>
 </div>
 <div style="float:right;width:50%">
-    <iframe loading="lazy" height="600" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/seqTime"><p>Your browser does not support iframes.</p></iframe>
+    <iframe loading="lazy" height="650" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/seqTime"><p>Your browser does not support iframes.</p></iframe>
 </div>
 
 # Geographic Report 
-<iframe loading="lazy" height="650" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/varGeo"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="700" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/varGeo"><p>Your browser does not support iframes.</p></iframe>
 
 # Additional Resources
 
