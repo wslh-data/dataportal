@@ -15,40 +15,16 @@ collections:
     permalink: /:slug
     sort_by: dashboard-id
 
-# Team names, titles and social links
-#people:
-#- name: Kay Garland
-#  pic: 1
-#  position: Lead Designer
-#  social:
-#    - title: twitter
-#      url: #
-#    - title: facebook
-#      url: #
-#    - title: stack-overflow
-#      url: #
-#
-#- name: Larry Parker
-#  pic: 2
-#  position: Lead Marketer
-#  social:
-#    - title: twitter
-#      url: #
-#    - title: facebook
-#      url: #
-#    - title: linkedin
-#      url: #
-#
-#- name: Diana Petersen
-#  pic: 3
-#  position: Lead Developer
-#  social:
-#    - title: twitter
-#      url: #
-#    - title: facebook
-#      url: #
-#    - title: google-plus
-#      url: #
+supporters:
+  - name: AWS Diagnostic Development Initiative (DDI)
+    tag_line:
+    logo: AWS-DDI.png
+    address: https://aws.amazon.com/government-education/nonprofits/disaster-response/diagnostic-dev-initiative/
+  
+  - name: CDC ELC Cooperative Agreement
+    tag_line: Epidemiology and Laboratory Capacity for Prevention and Control of Emerging Infectious Diseases
+    logo: 
+    address: https://www.cdc.gov/ncezid/dpei/epidemiology-laboratory-capacity.html
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
