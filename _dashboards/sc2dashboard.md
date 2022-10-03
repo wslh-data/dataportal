@@ -15,7 +15,7 @@ Additional Resources
 ---
 
 # Variant Report
-<iframe height="725" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/variants"><p>Your browser does not support iframes.</p></iframe>
+<iframe height="725" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/variants"><p>Your browser does not support iframes.</p></iframe>
 
 The SARS-CoV-2 virus like all viruses continues to change over time. As the virus replicates and makes copies of itself changes or mutations are introduced. When a virus emerges with one or several new changes it is referred to as a variant of the original virus. Changes in the virus can sometimes lead to a new variant that is better adapted to its environment. The process of the virus changing over time and the selection of new better adapted variants is called virus evolution.
 
@@ -23,14 +23,14 @@ Enabling communication of viral variants requires a process of naming and classi
 
 # Sequencing Report
 <div style="float:left;width:50%">
-    <iframe loading="lazy" height="650" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/seqTotal"><p>Your browser does not support iframes.</p></iframe>
+    <iframe loading="lazy" height="650" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/seqTotal"><p>Your browser does not support iframes.</p></iframe>
 </div>
 <div style="float:right;width:50%">
-    <iframe loading="lazy" height="650" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/seqTime"><p>Your browser does not support iframes.</p></iframe>
+    <iframe loading="lazy" height="650" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/seqTime"><p>Your browser does not support iframes.</p></iframe>
 </div>
 
 # Geographic Report 
-<iframe loading="lazy" height="700" width="100%" frameborder="no" scrolling="no" src="https://wslhdatacloud.net/varGeo"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="700" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/varGeo"><p>Your browser does not support iframes.</p></iframe>
 
 # Additional Resources
 
