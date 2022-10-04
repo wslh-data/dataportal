@@ -15,7 +15,7 @@ Additional Resources
 ---
 
 # Variant Report
-<iframe height="725" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/variants"><p>Your browser does not support iframes.</p></iframe>
+<iframe height="725" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/variantSearch"><p>Your browser does not support iframes.</p></iframe>
 
 The SARS-CoV-2 virus like all viruses continues to change over time. As the virus replicates and makes copies of itself changes or mutations are introduced. When a virus emerges with one or several new changes it is referred to as a variant of the original virus. Changes in the virus can sometimes lead to a new variant that is better adapted to its environment. The process of the virus changing over time and the selection of new better adapted variants is called virus evolution.
 
