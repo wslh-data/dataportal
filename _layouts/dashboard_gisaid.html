@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+    {% include dashboard_header.html %}
+    <section>
+      <div class="container">
+        {{ page.content }}
+      </div>
+    </section>
+    <section id="gisaid" class="bg-light-gray">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-left">
+                GISAID data provided on this website are subject to GISAID's <a href="https://gisaid.org/terms-of-use/">Terms and Conditions</a><br><br>
+                We are grateful to the data contributors who shared the data used in this Web Application via the GISAID Initiative: the Authors, the Originating Laboratories responsible for obtaining the specimens, and the Submitting Laboratories that generated the genetic sequences and metadata.<br>
+                <ul>
+                  <li>(a) Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID's innovative contribution to global health. <i>Global Challenges</i>, 1:33-46. DOI: <a href="https://doi.org/10.1002/gch2.1018">10.1002/gch2.1018</a> PMCID: <a href="https://pubmed.ncbi.nlm.nih.gov/31565258/">31565258</a></li>
+                  <li>(b) Shu, Y., McCauley, J. (2017) GISAID: From vision to reality. <i>EuroSurveillance</i>, 22(13) DOI: <a href="https://doi.org/10.2807/1560-7917.es.2017.22.13.30494">10.2807/1560-7917.ES.2017.22.13.30494</a> PMCID: <a href="https://pubmed.ncbi.nlm.nih.gov/PMC5388101/">PMC5388101</a></li>
+                </ul>
+              </div>
+          </div>
+      </div>
+    </section>
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

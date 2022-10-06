@@ -9,19 +9,21 @@
             </div>
             <div class="row">
             {% for dashboard in site.dashboards %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="{{ dashboard.url | prepend: site.baseurl }}" class="portfolio-link">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                {% if dashboard.hidden != true %}
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="{{ dashboard.url | prepend: site.baseurl }}" class="portfolio-link">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
                             </div>
+                            <img src="img/dashboards/{{ dashboard.thumbnail }}" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>{{ dashboard.title }}</h4>
                         </div>
-                        <img src="img/dashboards/{{ dashboard.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ dashboard.title }}</h4>
                     </div>
-                </div>
+                {% endif %}
             {% endfor %}
             </div>
         </div>
