@@ -14,10 +14,10 @@ links:
 
 # Sequencing Report
 <div style="float:left;width:50%">
-    <iframe loading="lazy" height="500" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/seqTotal"><p>Your browser does not support iframes.</p></iframe>
+    <iframe loading="lazy" height="560" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/seqTotal"><p>Your browser does not support iframes.</p></iframe>
 </div>
 <div style="float:right;width:50%">
-    <iframe loading="lazy" height="500" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/seqTime"><p>Your browser does not support iframes.</p></iframe>
+    <iframe loading="lazy" height="560" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/seqTime"><p>Your browser does not support iframes.</p></iframe>
 </div>
 
 SARS-CoV-2 genomic sequencing is performed by the [WSLH](https://slh.wisc.edu), the [Centers for Disease Control and Prevention](https://www.cdc.gov/) and variety of Academic, Public Health, and Contract Laboratories. Due to the time it takes for samples to travel to sequencing laboratories and for the resulting data to be released it can take on average <u>2-3 weeks</u> for sequence data to become available after collection from a patient. Additionally, batches of stored samples may be often be sequenced at a later date, which can alter historic data. As a result recent trends should be considered preliminary. Only residual positive viral transport media with sufficient viral load from molecular tests can produce reliable sequence data and all of sequence data represented here are from samples collected in Wisconsin.  

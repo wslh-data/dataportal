@@ -13,4 +13,4 @@ links:
 ---
 
 # Variant Search
-<iframe height="825" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/variantSearch"><p>Your browser does not support iframes.</p></iframe>
+<iframe height="1200" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/variantSearch"><p>Your browser does not support iframes.</p></iframe>
