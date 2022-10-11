@@ -29,7 +29,11 @@ SARS-CoV-2 genomic sequencing is performed by the [WSLH](https://slh.wisc.edu), 
 
 The SARS-CoV-2 virus like all viruses continues to change over time. As the virus replicates and makes copies of itself, changes in the genome called mutations are introduced. When a virus emerges with one or more new changes it is referred to as a variant of the original virus. These changes in the virus can sometimes lead to a new variant that is better adapted to its environment, which in turn can result in greater spread of the variant. The process of the virus changing over time and the selection of better adapted variants is called virus evolution.
 
-Enabling communication of viral variants requires a process of naming and classifying the variants. Several methods for SARS-CoV-2 variant classification have been developed but the most widely adopted is the [Pangolin](https://cov-lineages.org/resources/pangolin.html) naming scheme, which provides a dynamic naming approach that can adapt to the evolving virus.
+Enabling communication of viral variants requires a process of naming and classifying the variants as they emerge. Several methods for SARS-CoV-2 variant classification have been developed but the most widely adopted is the [Pangolin](https://cov-lineages.org/resources/pangolin.html) naming scheme, which provides a dynamic naming approach that can adapt to the evolving virus.
+
+<img width="100%" src="img/assets/pangolin-lineages.png">
+
+The diagram above depicts the Pangolin naming scheme, starting with the original virus the diagram branches into to branches "A" and "B". Subsequent viral descendants are given a increasing numerical suffix i.e. "B.1" or "B.1.3". When the lineage name gets to a length of 5 an alias is given to shorten the overall name. Shown here "BA" is an alias for "B.1.1.529", which results in viral lineages like "BA.2.75" referencing B.1.1.529.2.75. <i>Note for clarity not all possible lineages are shown in the diagram above.</i>
 
 <br>
 <br>
@@ -47,6 +51,10 @@ Pie charts placed over each County indicate the number of each major variant. Ho
 
 - #### [CDC COVID Data Tracker](https://covid.cdc.gov/covid-data-tracker/#variant-proportions)
 - #### [Outbreak.info](https://outbreak.info/)
-- #### [NextStrain.org](https://nextstrain.org/ncov/gisaid/global/6m)
-- #### [CoVariants](https://covariants.org/)
 - #### [cov-lineages.org](https://cov-lineages.org/)
+- #### [Pangolin](https://cov-lineages.org/resources/pangolin.html)
+- #### [Pango Designation](https://github.com/cov-lineages/pango-designation)
+- #### [NextStrain.org](https://nextstrain.org/ncov/gisaid/global/6m)
+- #### [NextClade.org](https://clades.nextstrain.org/)
+- #### [CoVariants](https://covariants.org/)
+
