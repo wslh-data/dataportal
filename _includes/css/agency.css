@@ -805,6 +805,11 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+.g-recaptcha {
+    display: inline-block;
+    padding: 20px;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
