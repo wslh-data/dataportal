@@ -9,6 +9,9 @@ logo_alt: Wisconsin State Laboratory of Hygiene DataPortal
 email: 
 description: "The Wisconsin State Laboratory of Hygiene (WSLH) is the state's public and environmental health laboratory. As part of the University of Wisconsin-Madison, the WSLH is committed to exploring new ideas which benefit the state, the nation and the world."
 
+# Google Analytics
+google_tag: 'GTM-MGJB9P5'
+
 collections:
   dashboards:
     output: true
