@@ -3,14 +3,13 @@
 
   {% include head.html %}
 
-
     <body id="page-top" class="index">
-
     {% include header.html %}
-    {% include dashboard_grid.html %}
-    {% include about.html %}
-    {% include support.html %}
-    {% include contact.html %}
+    <section>
+      <div class="container">
+        {{ page.content | markdownify}}
+      </div>
+    </section>
     {% include footer.html %}
     {% include js.html %}
 

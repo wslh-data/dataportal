@@ -7,7 +7,7 @@ organization: Wisconsin State Laboratory of Hygiene
 logo: wslh-logo.png
 logo_alt: Wisconsin State Laboratory of Hygiene DataPortal
 email: 
-description: "The Wisconsin State Laboratory of Hygiene (WSLH) is the state’s public and environmental health laboratory. As part of the University of Wisconsin-Madison, the WSLH is committed to exploring new ideas which benefit the state, the nation and the world."
+description: "The Wisconsin State Laboratory of Hygiene (WSLH) is the state's public and environmental health laboratory. As part of the University of Wisconsin-Madison, the WSLH is committed to exploring new ideas which benefit the state, the nation and the world."
 
 collections:
   dashboards:
@@ -26,18 +26,10 @@ supporters:
     logo: 
     address: https://www.cdc.gov/ncezid/dpei/epidemiology-laboratory-capacity.html
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
   - title: github
     url: https://github.com/wslh-data
-#  - title: twitter
-#    url: http://twitter.com/jekyllrb
-#  - title: facebook
-#    url:
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-#  - title: bitbucket 
-#    url: http://bitbucket.org/jekyll
 
 
 # Postal address (add as many lines as necessary)
