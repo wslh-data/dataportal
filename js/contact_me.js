@@ -59,6 +59,7 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                    grecaptcha.reset();
                 },
 
                 error: function () {
@@ -69,6 +70,7 @@ $(function() {
                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that the email server is not responding. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
+                    grecaptcha.reset();
                     //$('#contactForm').trigger("reset");
                 }
             });
