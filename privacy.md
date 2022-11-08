@@ -15,7 +15,7 @@ links:
 >The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Website URL, unless otherwise defined in this Privacy Policy.
 
 ### Information Collection and Use
->For a better experience while using the Data Portal, we may require you to provide us with certain personally identifiable information, including but not limited to your name, phone number, and email address. The information that we collect will be used to contact or identify you.
+>For a better experience while using the Data Portal, we may require you to provide us with certain personally identifiable information, including but not limited to your name, phone number, and email address. The information that we collect will be used to contact you when then contact us form is used.
 
 ### Log Data
 >We want to inform you that whenever you visit our Data Portal, we collect information that your browser sends to us that is called Log Data. This Log Data may include information such as your computer's Internet Protocol (“IP”) address, browser version, pages of our Data Portal that you visit, the time and date of your visit, the time spent on those pages, and other statistics.
@@ -33,9 +33,6 @@ links:
 
 ### Links to Other Sites
 >Our Data Portal may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-### Children's Privacy
->Our Data Portal does not address anyone under the age of 13. We do not knowingly collect personal identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
 
 ### Changes to This Privacy Policy
 >We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.
