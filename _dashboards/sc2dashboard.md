@@ -1,5 +1,5 @@
 ---
-title: Wisconsin SARS-CoV-2 (hCoV-19) Genomic Dashboard
+title: SARS-CoV-2 (hCoV-19) Genomic Dashboard
 subtitle: "enabled by data from <a href='https://www.gisaid.org/'><img src='https://www.gisaid.org/fileadmin/gisaid/img/schild.png' alt='GISAID' style='width:100px'></a>"
 layout: dashboard_gisaid
 dashboard-id: 1
