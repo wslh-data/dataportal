@@ -1,5 +1,5 @@
-url: https://wslh-data.github.io
-baseurl: /dataportal
+url: https://dataportal.slh.wisc.edu
+baseurl:
 
 # Site settings
 title: Wisconsin State Laboratory of Hygiene DataPortal
