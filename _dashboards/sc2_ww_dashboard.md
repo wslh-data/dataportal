@@ -65,7 +65,7 @@ The Map or Geographic Report displays pie charts reflecting the relative abundan
 <br>
 
 # More information
-The Wisconsin State Laboratory of Hygiene [WSLH](https://slh.wisc.edu/) sequences about 20% of the samples that are tested for routine COVID-19 wastewater surveillance. Only samples with sufficient amounts of virus are sequenced. Large cities and university towns are primarily selected to be sequenced. However, rural sewersheds are also monitored to obtain a representative picture of COVID-19 variants circulating in the state.
+The Wisconsin State Laboratory of Hygiene [WSLH](https://slh.wisc.edu/) sequences about 20% of the samples that are tested for routine COVID-19 wastewater surveillance. Only samples with sufficient amounts of virus are sequenced. Large cities and university towns are primarily selected to be sequenced. Rural sewersheds are also monitored to obtain a representative picture of COVID-19 variants circulating in the state.
 
  [Illumina](https://www.illumina.com/systems/sequencing-platforms/miseq.html) sequencing data are processed through the [viralrecon](https://nf-co.re/viralrecon) workflow. The bioinformatics algorithm [Freyja](https://www.nature.com/articles/s41586-022-05049-6) is used to evaluate the relative proportion of the SARS-CoV-2 lineages present in wastewater samples. Data are manually curated to only display the lineages according to [WHO](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/) and [Nextstrain](https://clades.nextstrain.org/) nomenclatures. See the [CDC](https://www.cdc.gov/coronavirus/2019-ncov/variants/) website for more information about the current variants of concern and emerging COVID-19 variants.
 
