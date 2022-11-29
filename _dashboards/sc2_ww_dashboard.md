@@ -83,7 +83,7 @@ Changes in the genetic code of the SARS-CoV-2 virus occur as it spreads through 
 
 <figure>
   <p align="center">
-  <img width="1000" alt="Tree of Nextstrain clades" src="https://raw.githubusercontent.com/nextstrain/ncov-clades-schema/master/clades.svg"/>
+  <img height="600" width="90%" alt="Tree of Nextstrain clades" src="https://raw.githubusercontent.com/nextstrain/ncov-clades-schema/master/clades.svg"/>
 </p>
 <figcaption>Phylogenetic relationships of Nextstrain SARS-CoV-2 clades (<a href="https://github.com/nextstrain/ncov-clades-schema">source</a>). Credits: <a href="https://nextstrain.org/">Nextstrain</a>.</figcaption>
 </figure>
