@@ -394,6 +394,15 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section h2.section-heading::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -75px; 
+    height: 125px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
