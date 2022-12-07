@@ -2,7 +2,6 @@
 title: SARS-CoV-2 Wastewater Genomic Dashboard
 layout: dashboard
 dashboard-id: 2
-hidden: true
 img: sc2_ww_200Ko.jpg
 thumbnail: sc2_ww_200Ko.jpg
 alt: SARS-CoV-2 Virus in Wastewater
