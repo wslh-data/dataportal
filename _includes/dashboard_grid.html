@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-            {% for dashboard in site.dashboards %}
+            {% for dashboard in site.dashboards | reverse %}
                 {% if dashboard.hidden != true %}
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a href="{{ dashboard.url | prepend: site.baseurl }}" class="portfolio-link">
