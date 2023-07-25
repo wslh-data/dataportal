@@ -13,6 +13,12 @@ links:
 
 ---
 
+<div class="warning" style='background-color:#fff691; color: #141406; border-left: solid #ffbf47 4px; border-radius: 4px; padding:0.7em;'> 
+    <span>
+ℹ️  <b>Note</b> Low levels of SARS-CoV-2 in wastewater cause fewer samples to qualify for sequencing analysis (a certain amount of viruses are needed to obtain good-quality data). Thus, we have to hold the sequencing analysis until we have enough samples to allow cost-effective processing, delaying the dashboard update. Thanks for your patience.
+     </span>
+</div>
+
 <iframe loading="lazy" height="50" width="100%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwTime/"><p>Your browser does not support iframes.</p></iframe>
 
 # Wastewater surveillance
