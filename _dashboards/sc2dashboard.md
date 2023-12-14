@@ -14,10 +14,10 @@ links:
 
 # Sequencing Report
 <div style="float:left;width:50%">
-    <iframe loading="lazy" height="560" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/seqTotal"><p>Your browser does not support iframes.</p></iframe>
+    <iframe loading="lazy" height="560" width="100%" frameborder="no" scrolling="no" src="https://sc2.devslhcddcloud.org/seqTotal"><p>Your browser does not support iframes.</p></iframe>
 </div>
 <div style="float:right;width:50%">
-    <iframe loading="lazy" height="560" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/seqTime"><p>Your browser does not support iframes.</p></iframe>
+    <iframe loading="lazy" height="560" width="100%" frameborder="no" scrolling="no" src="https://sc2.devslhcddcloud.org/seqTime"><p>Your browser does not support iframes.</p></iframe>
 </div>
 
 SARS-CoV-2 genomic sequencing is performed by the [WSLH](https://slh.wisc.edu), the [Centers for Disease Control and Prevention](https://www.cdc.gov/) and a variety of Academic, Public Health, and Contract Laboratories. Due to the time it takes for samples to travel to sequencing laboratories and for the resulting data to be released, it can take on average <u>2-3 weeks</u> for sequence data to become available after collection from a patient. Additionally, batches of stored samples may often be sequenced at a later date, which can alter historic data. As a result recent trends should be considered preliminary. Only residual positive viral transport media with sufficient viral load from molecular tests can produce reliable sequence data and all of sequence data represented here are from samples collected in Wisconsin.  
@@ -25,7 +25,7 @@ SARS-CoV-2 genomic sequencing is performed by the [WSLH](https://slh.wisc.edu), 
 <br>
 <br>
 # Variant Report
-<iframe height="575" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/variants"><p>Your browser does not support iframes.</p></iframe>
+<iframe height="575" width="100%" frameborder="no" scrolling="no" src="https://sc2.devslhcddcloud.org/variants"><p>Your browser does not support iframes.</p></iframe>
 
 The SARS-CoV-2 virus like all viruses continues to change over time. As the virus replicates and makes copies of itself, changes in the genome called mutations are introduced. When a virus emerges with one or more new changes it is referred to as a variant of the original virus. These changes in the virus can sometimes lead to a new variant that is better adapted to its environment, which in turn can result in greater spread of the variant. The process of the virus changing over time and the selection of better adapted variants is called virus evolution.
 
@@ -38,7 +38,7 @@ The diagram above depicts the Pangolin naming scheme, starting with the original
 <br>
 <br>
 # Geographic Report 
-<iframe loading="lazy" height="800" width="100%" frameborder="no" scrolling="no" src="https://data.slhcddcloud.org/varGeo"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="800" width="100%" frameborder="no" scrolling="no" src="https://sc2.devslhcddcloud.org/varGeo"><p>Your browser does not support iframes.</p></iframe>
 
 SARS-CoV-2 genomic sequencing and variant tracking is heavily dependent on clinical testing and the collection and transport of samples for sequencing. Due to these conditions there is a wide variability in the collection and sequencing of samples by geographic region in Wisconsin. The Geographic Report indicates the number of available sequences by County within the selected date range. Darker blue counties represent areas with a larger number of sequences while lighter blue and white counties have a fewer number of sequences. Counties that are colored grey indicate regions where there are no sequences available in given date range.
 
