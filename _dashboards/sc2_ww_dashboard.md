@@ -33,7 +33,7 @@ The accuracy of wastewater testing is affected by sewershed-specific wastewater 
 <br>
 
 # Proportion 
-<iframe loading="lazy" height="500" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.devslhcddcloud.org/wwBarplot/"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.devslhcddcloud.org/wwBarplot/"><p>Your browser does not support iframes.</p></iframe>
 
 The Proportion Report displays the relative abundance, or proportion, of the COVID-19 variant groups (described below) over time in wastewater. Variant groups are represented by different colors. The group "Others" includes the variants that were not classified as any of the specific variant groups.
 
