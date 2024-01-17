@@ -13,7 +13,7 @@ links:
 
 ---
 
-<iframe loading="lazy" height="50" width="100%" frameborder="no" scrolling="no" src="https://sc2ww.devslhcddcloud.org/wwTime/"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="50" width="100%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwTime/"><p>Your browser does not support iframes.</p></iframe>
 
 # Wastewater surveillance
 
@@ -33,7 +33,7 @@ The accuracy of wastewater testing is affected by sewershed-specific wastewater 
 <br>
 
 # Proportion 
-<iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.devslhcddcloud.org/wwBarplot/"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwBarplot/"><p>Your browser does not support iframes.</p></iframe>
 
 The Proportion Report displays the relative abundance, or proportion, of the COVID-19 variant groups (described below) over time in wastewater. Variant groups are represented by different colors. The group "Others" includes the variants that were not classified as any of the specific variant groups.
 
@@ -43,7 +43,7 @@ The Proportion Report displays the relative abundance, or proportion, of the COV
 <br>
 
 # Prevalence
-<iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.devslhcddcloud.org/wwHeatmap/"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwHeatmap/"><p>Your browser does not support iframes.</p></iframe>
 
 
 The Prevalence Report shows by default only the most abundant COVID-19 variant group over time for each community participating in the wastewater surveillance system. Variant groups are represented by different colors.
@@ -54,7 +54,7 @@ The Prevalence Report shows by default only the most abundant COVID-19 variant g
 <br>
 
 # Map  
-<iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.devslhcddcloud.org/wwMap/"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwMap/"><p>Your browser does not support iframes.</p></iframe>
 
 The Map or Geographic Report displays pie charts reflecting the relative abundance of the COVID-19 variant groups over the monitored communities.
 
