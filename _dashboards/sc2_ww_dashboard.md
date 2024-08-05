@@ -113,3 +113,26 @@ Recombinant variants are the fusion of multiple variants into one. They are reco
 - #### [Pango Designation](https://github.com/cov-lineages/pango-designation)
 - #### [NextStrain.org](https://nextstrain.org/ncov/gisaid/global/6m)
 - #### [NextClade.org](https://clades.nextstrain.org/)
+
+<script>
+  const url = 'https://raw.githubusercontent.com/wslh-bio/spriggan/main/assets/email_template.txt'
+  let bannerText = ''
+
+  fetch(url)
+    .then(response => {
+      response.text().then(text => {
+        bannerText = text;
+        done();
+      });
+    });
+
+  function done() {
+    document.getElementById('banner').textContent = bannerText;
+    if (bannerText.trim() !== '') {
+      banner.style.backgroundColor = '#fff691';
+      banner.textContent = bannerText;
+      banner.style.display = 'block';
+    }
+  }
+
+</script>
