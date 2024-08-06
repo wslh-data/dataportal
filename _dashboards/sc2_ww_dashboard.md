@@ -116,7 +116,7 @@ Recombinant variants are the fusion of multiple variants into one. They are reco
 
 
 <script>
-  const url = 'https://raw.githubusercontent.com/wslh-bio/spriggan/main/assets/email_template.txt'
+  const url = 'https://raw.githubusercontent.com/wslh-data/sc2-wastewater-data-dashboard/main/banner.txt'
   let bannerText = ''
 
   fetch(url)
