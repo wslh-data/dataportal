@@ -13,7 +13,7 @@ links:
 
 ---
 
-<iframe loading="lazy" height="50" width="100%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwTime/"><p>Your browser does not support iframes.</p></iframe>
+<div id='banner' style='color: #141406; border-left: solid #FFBF47 4px; border-radius: 4px; padding:0.7em; display:none'></div>
 
 # Wastewater surveillance
 
@@ -113,6 +113,7 @@ Recombinant variants are the fusion of multiple variants into one. They are reco
 - #### [Pango Designation](https://github.com/cov-lineages/pango-designation)
 - #### [NextStrain.org](https://nextstrain.org/ncov/gisaid/global/6m)
 - #### [NextClade.org](https://clades.nextstrain.org/)
+
 
 <script>
   const url = 'https://raw.githubusercontent.com/wslh-bio/spriggan/main/assets/email_template.txt'
