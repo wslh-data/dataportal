@@ -43,7 +43,7 @@ The Proportion Report displays the relative abundance, or proportion, of the COV
 <br>
 
 # Prevalence
-<iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwHeatmap/"><p>Your browser does not support iframes.</p></iframe>
+<iframe loading="lazy" height="750" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwHeatmap/"><p>Your browser does not support iframes.</p></iframe>
 
 
 The Prevalence Report shows by default only the most abundant COVID-19 variant group over time for each community participating in the wastewater surveillance system. Variant groups are represented by different colors.
