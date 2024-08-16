@@ -116,24 +116,34 @@ Recombinant variants are the fusion of multiple variants into one. They are reco
 
 
 <script>
-  const url = 'https://raw.githubusercontent.com/wslh-data/sc2-wastewater-data-dashboard/main/banner.txt'
-  let bannerText = ''
+  function bannerUpdate() {
+    const url = `https://raw.githubusercontent.com/wslh-data/sc2-wastewater-data-dashboard/main/banner.txt?nocache=${new Date().getTime()}`
+    // ?nocache=${new Date().getTime()} is a cache-bypass that ensures each URL request is unique
+    let bannerText = ''
 
-  fetch(url)
-    .then(response => {
-      response.text().then(text => {
-        bannerText = text;
-        done();
+    let bannerInit = {
+      method: 'GET',
+      cache: 'no-store', // ensures that the browser does not store the fetched result in its cache
+    };
+
+    fetch(url, bannerInit)
+      .then(response => {
+        response.text().then(text => {
+          bannerText = text;
+          console.log("banner text is: "+bannerText);
+          done();
+        });
       });
-    });
 
-  function done() {
-    document.getElementById('banner').textContent = bannerText;
-    if (bannerText.trim() !== '') {
-      banner.style.backgroundColor = '#fff691';
+    function done() {
       banner.textContent = bannerText;
-      banner.style.display = 'block';
+      if (bannerText.trim() !== '') {
+        banner.style.backgroundColor = '#fff691';
+        banner.textContent = bannerText;
+        banner.style.display = 'block';
+      }
     }
   }
 
+  window.onload = bannerUpdate;
 </script>
