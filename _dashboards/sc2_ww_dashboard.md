@@ -13,6 +13,8 @@ links:
 
 ---
 
+<div id='banner' style='color: #141406; border-left: solid #FFBF47 4px; border-radius: 4px; padding:0.7em; display:none'></div>
+
 <iframe loading="lazy" height="50" width="100%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwTime/"><p>Your browser does not support iframes.</p></iframe>
 
 # Wastewater surveillance
@@ -113,3 +115,37 @@ Recombinant variants are the fusion of multiple variants into one. They are reco
 - #### [Pango Designation](https://github.com/cov-lineages/pango-designation)
 - #### [NextStrain.org](https://nextstrain.org/ncov/gisaid/global/6m)
 - #### [NextClade.org](https://clades.nextstrain.org/)
+
+
+<script>
+  function bannerUpdate() {
+    const url = `https://raw.githubusercontent.com/wslh-data/sc2-wastewater-data-dashboard/main/banner.txt?nocache=${new Date().getTime()}`
+    // ?nocache=${new Date().getTime()} is a cache-bypass that ensures each URL request is unique
+    let bannerText = ''
+
+    let bannerInit = {
+      method: 'GET',
+      cache: 'no-store', // ensures that the browser does not store the fetched result in its cache
+    };
+
+    fetch(url, bannerInit)
+      .then(response => {
+        response.text().then(text => {
+          bannerText = text;
+          console.log("banner text is: "+bannerText);
+          done();
+        });
+      });
+
+    function done() {
+      banner.textContent = bannerText;
+      if (bannerText.trim() !== '') {
+        banner.style.backgroundColor = '#fff691';
+        banner.textContent = bannerText;
+        banner.style.display = 'block';
+      }
+    }
+  }
+
+  window.onload = bannerUpdate;
+</script>
