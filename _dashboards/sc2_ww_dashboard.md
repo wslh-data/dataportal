@@ -15,6 +15,8 @@ links:
 
 <div id='banner' style='color: #141406; border-left: solid #FFBF47 4px; border-radius: 4px; padding:0.7em; display:none'></div>
 
+<iframe loading="lazy" height="50" width="100%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwTime/"><p>Your browser does not support iframes.</p></iframe>
+
 # Wastewater surveillance
 
 People infected with COVID-19 can shed the virus (called SARS-CoV-2) in their stool, whether or not they have symptoms. By sampling wastewater throughout Wisconsin, we can assess the level of COVID-19 in the population. Wastewater trends can be found on [Wisconsin DHS](https://www.dhs.wisconsin.gov/covid-19/wastewater.htm) and [CDC](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance) wastewater dashboards. In addition, by assessing wastewater samples with a technique called genomic sequencing, we can even identify which COVID-19 variants are circulating in a community. This is important to understand because new variants can spread faster, cause more severe illnesses, and vaccines may not be as effective against them. Thus, public health officials can better protect community members if they know what variants are circulating and where they are spreading. 
