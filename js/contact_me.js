@@ -1,12 +1,17 @@
-$(function() {
+const apiURL = 'https://3d1su84o30.execute-api.us-east-2.amazonaws.com/v1/contact'
+const grecaptchaSiteKey = '6LcO5FAiAAAAACC5DYTxi6AmLYQ7TFFKLW2tjOfI'
 
+function onloadCallback() {
+    grecaptcha.render(document.getElementById("grecaptcha"), {'sitekey' : grecaptchaSiteKey, 'theme' : 'dark'});
+};
+
+$(function() {
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
-            const apiURL = 'https://xcjq92fu67.execute-api.us-east-2.amazonaws.com/v1/contact'
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -34,7 +39,8 @@ $(function() {
                 message : message,
                 recaptcha : recaptcha
                 };
-
+            
+            $(".loader").show();
             $.ajax({
                 type: "POST",
                 url : apiURL,
@@ -83,6 +89,9 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     grecaptcha.reset();
                 }
+            })
+            .always(function() {
+                $(".loader").hide();
             });
         }
     });
