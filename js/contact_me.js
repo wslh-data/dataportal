@@ -1,5 +1,11 @@
-$(function() {
+const apiURL = 'https://3d1su84o30.execute-api.us-east-2.amazonaws.com/v1/contact'
+const grecaptchaSiteKey = '6LcO5FAiAAAAACC5DYTxi6AmLYQ7TFFKLW2tjOfI'
 
+function onloadCallback() {
+    grecaptcha.render(document.getElementById("grecaptcha"), {'sitekey' : grecaptchaSiteKey, 'theme' : 'dark'});
+};
+
+$(function() {
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -12,11 +18,6 @@ $(function() {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
-            var firstName = name; // For Success/Failure Message
-            // Check for white space in name for Success/Fail message
-            if (firstName.indexOf(' ') >= 0) {
-                firstName = name.split(' ').slice(0, -1).join(' ');
-            }
 
             // Verify reCaptcha
             var recaptcha = grecaptcha.getResponse()
@@ -38,41 +39,59 @@ $(function() {
                 message : message,
                 recaptcha : recaptcha
                 };
-
+            
+            $(".loader").show();
             $.ajax({
                 type: "POST",
-                url : "https://7q9janbli8.execute-api.us-east-2.amazonaws.com/contact",
+                url : apiURL,
                 dataType: "json",
                 crossDomain: "true",
                 contentType: "application/json; charset=utf-8",
                 data: JSON.stringify(data),
-
-                success: function () {
-                    // Success message
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
-                    $('#success > .alert-success')
-                        .append('</div>');
-
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                    grecaptcha.reset();
+                success: function(response) {
+                    if (response.statusCode == 200) {
+                        // Success message
+                        $('#success').html("<div class='alert alert-success'>");
+                        $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                            .append("</button>");
+                        $('#success > .alert-success')
+                            .append("<strong>Thanks for contacting us "+name+", your message has been sent. </strong>");
+                        $('#success > .alert-success')
+                            .append('</div>');
+    
+                        //clear all fields
+                        $('#contactForm').trigger("reset");
+                        grecaptcha.reset();
+                    } else if (response.statusCode == 406) {
+                        // Fail message
+                        $('#success').html("<div class='alert alert-danger'>");
+                        $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                            .append("</button>");
+                        $('#success > .alert-danger').append("<strong>Sorry " + name + ", it seems that there is an issue with your submission.");
+                        $('#success > .alert-danger').append('</div>');
+                        grecaptcha.reset();
+                    } else if (response.statusCode == 500) {
+                        // Fail message
+                        $('#success').html("<div class='alert alert-danger'>");
+                        $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                            .append("</button>");
+                        $('#success > .alert-danger').append("<strong>Sorry " + name + ", there is an issue with the server.");
+                        $('#success > .alert-danger').append('</div>');
+                        grecaptcha.reset();
+                    }
                 },
-
-                error: function () {
+                error: function() {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that the email server is not responding. Please try again later!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + name + ", there is an issue with the server.");
                     $('#success > .alert-danger').append('</div>');
-                    //clear all fields
                     grecaptcha.reset();
-                    //$('#contactForm').trigger("reset");
                 }
+            })
+            .always(function() {
+                $(".loader").hide();
             });
         }
     });
