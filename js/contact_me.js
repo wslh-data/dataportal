@@ -8,9 +8,7 @@ function onloadCallback() {
     grecaptcha.render(document.getElementById("grecaptcha"), {'sitekey' : grecaptchaSiteKey, 'theme' : 'dark'});
 };
 
-
 $(function() {
-
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -27,11 +25,6 @@ $(function() {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
-            var firstName = name; // For Success/Failure Message
-            // Check for white space in name for Success/Fail message
-            if (firstName.indexOf(' ') >= 0) {
-                firstName = name.split(' ').slice(0, -1).join(' ');
-            }
 
             // Verify reCaptcha
             var recaptcha = grecaptcha.getResponse()
@@ -53,10 +46,11 @@ $(function() {
                 message : message,
                 recaptcha : recaptcha
                 };
-
+            
+            $(".loader").show();
             $.ajax({
                 type: "POST",
-                url : "https://7q9janbli8.execute-api.us-east-2.amazonaws.com/contact",
+                url : apiURL,
                 dataType: "json",
                 crossDomain: "true",
                 contentType: "application/json; charset=utf-8",
@@ -103,13 +97,15 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that the email server is not responding. Please try again later!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + name + ", there is an issue with the server.");
                     $('#success > .alert-danger').append('</div>');
-                    //clear all fields
                     grecaptcha.reset();
                     $(".loader").hide();
                     document.getElementById("submitBtn").disabled = false;
                 }
+            })
+            .always(function() {
+                $(".loader").hide();
             });
         }
     });
