@@ -104,9 +104,6 @@ $(function() {
                     document.getElementById("submitBtn").disabled = false;
                 }
             })
-            .always(function() {
-                $(".loader").hide();
-            });
         }
     });
 });
