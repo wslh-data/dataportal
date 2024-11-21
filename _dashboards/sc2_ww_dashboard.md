@@ -21,7 +21,7 @@ links:
 
 People infected with COVID-19 can shed the virus (called SARS-CoV-2) in their stool, whether or not they have symptoms. By sampling wastewater throughout Wisconsin, we can assess the level of COVID-19 in the population. Wastewater trends can be found on [Wisconsin DHS](https://www.dhs.wisconsin.gov/covid-19/wastewater.htm) and [CDC](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance) wastewater dashboards. In addition, by assessing wastewater samples with a technique called genomic sequencing, we can even identify which COVID-19 variants are circulating in a community. This is important to understand because new variants can spread faster, cause more severe illnesses, and vaccines may not be as effective against them. Thus, public health officials can better protect community members if they know what variants are circulating and where they are spreading. 
 
-To better understand the spread of COVID-19 variants in Wisconsin, the Wisconsin State Laboratory of Hygiene sequences wastewater samples across the state. This project is a collaboration between the Wisconsin Department of Health Services [(WI DHS)](https://www.dhs.wisconsin.gov/), the Wisconsin State Laboratory of Hygiene [(WSLH)](https://slh.wisc.edu/), and the University of Wisconsin-Milwaukee [(UWM)](https://uwm.edu/freshwater/). It is funded by the Centers for Disease Control and Prevention [(CDC)](https://www.cdc.gov/).
+To better understand the spread of COVID-19 variants in Wisconsin, the Wisconsin State Laboratory of Hygiene sequences wastewater samples across the state. This project is a collaboration between the Wisconsin Department of Health Services [(WI DHS)](https://www.dhs.wisconsin.gov/), the Wisconsin State Laboratory of Hygiene [(WSLH)](https://slh.wisc.edu/), the University of Wisconsin-Milwaukee [(UWM)](https://uwm.edu/freshwater/), and the Milwaukee Health Department [(MHD)](https://city.milwaukee.gov/Health/). It is funded by the Centers for Disease Control and Prevention [(CDC)](https://www.cdc.gov/).
 
 <br>
 
@@ -37,9 +37,9 @@ The accuracy of wastewater testing is affected by sewershed-specific wastewater 
 # Proportion 
 <iframe loading="lazy" height="600" width="90%" frameborder="no" scrolling="no" src="https://sc2ww.slhcddcloud.org/wwBarplot/"><p>Your browser does not support iframes.</p></iframe>
 
-The Proportion Report displays the relative abundance, or proportion, of the COVID-19 variant groups (described below) over time in wastewater. Variant groups are represented by different colors. The group "Others" includes the variants that were not classified as any of the specific variant groups.
+The Proportion Report displays the relative abundance, or proportion, of COVID-19 variant groups (described below) over time in wastewater. Variant groups are represented by different colors. The group "Others" includes the variants that were not classified as any of the specific variant groups.
 
-*By default, the chart displays the average relative abundance across all sequenced samples. By clicking on "SARS-CoV-2 wastewater level", bar lengths will reflect the bi-weekly averaged SARS-CoV-2 levels in wastewater. See the [Wisconsin DHS dashboard](https://www.dhs.wisconsin.gov/covid-19/wastewater.htm) for more details about the wastewater level calculation. Use the drop-down menu to limit the view to a specific community. Mouse over the bars to display more information. Each bar reflects a 2-week period of time.*
+*By default, the chart displays the average relative abundance across all sequenced samples. By clicking on "SARS-CoV-2 wastewater level", bar lengths will reflect the bi-weekly averaged SARS-CoV-2 levels in wastewater. See the [Wisconsin DHS dashboard](https://www.dhs.wisconsin.gov/covid-19/wastewater.htm) for more details about the wastewater level calculation. Use the drop-down menu to limit the view to a specific community. The legend lists the variants by order of emergence, with the most recent ones at the top. Mouse over the bars to display more information. Each bar reflects a 2-week period of time.*
 
 <br>
 <br>
@@ -60,7 +60,7 @@ The Prevalence Report shows by default only the most abundant COVID-19 variant g
 
 The Map or Geographic Report displays pie charts reflecting the relative abundance of the COVID-19 variant groups over the monitored communities.
 
-*By default, the current month is displayed. Click on the "play" button to start the animation. Use the drop-down menu to limit the view to a specific variant group. In the resulting view, the circle size is* *proportional to the relative abundance of the selected variant group in wastewater from 0% to 100%. Click over the chart to reveal more information. Data are binned per month.*
+*By default, the current month is displayed. Click on the "play" button to start the animation. Use the drop-down menu to limit the view to a specific variant group. When you select a variant using the drop-down menu, the plot will show you where and when the variant was first detected. In the resulting view, the circle size is* *proportional to the relative abundance of the selected variant group in wastewater from 0% to 100%. Click over the chart to reveal more information. The variants are listed in the legend in alphabetical order. Data are binned per month.*
 
 <br>
 <br>
@@ -76,9 +76,9 @@ The Wisconsin State Laboratory of Hygiene [WSLH](https://slh.wisc.edu/) sequence
 
 Changes in the genetic code of the SARS-CoV-2 virus occur as it spreads through communities. These changes are a natural process. If these changes are favorable to the survival of the virus (e.g., spreads faster, avoids the immune system), they will be passed on to the next generation of the virus. When a virus emerges with one or more new variations, it is referred to as a variant of the original virus.
 
-The familiar Greek letter scheme for naming the variants of concern (e.g., Alpha, Delta, Omicron) is derived from the World Health Organization [(WHO)](https://www.who.int/activities/tracking-SARS-CoV-2-variants). However, as variants themselves change over time and give rise to new sub-variants, the WHO naming system has not been specific enough to keep good track of those. As a solution, the [Nextstrain](https://nextstrain.org/) naming system (see chart below) keeps the WHO naming categories but also combines variants into more detailed groups based on genetic similarities (also called *clades*). See  [Nextstrain](https://nextstrain.org/) and [CoVariants](https://covariants.org/) for more information.
+The familiar Greek letter scheme for naming the variants of concern (e.g., Alpha, Delta, Omicron) is derived from the World Health Organization [(WHO)](https://www.who.int/activities/tracking-SARS-CoV-2-variants). However, as variants themselves change over time and give rise to new sub-variants, the WHO naming system has not been specific enough to keep good track of those. As a solution, the [Nextstrain](https://nextstrain.org/) naming system (see chart below) keeps the WHO naming categories but also combines variants into more detailed groups based on genetic similarities (also called *clades*). See  [Nextstrain](https://nextstrain.org/) and [CoVariants](https://covariants.org/) for more information. Nextstrain clades described [here](https://github.com/nextstrain/ncov/blob/80c06c15f0669c5990e0cc03628deeeedca7b720/defaults/clade_display_names.yml) are automatically displayed on the dashboard. 
 
-Recombinant variants are the fusion of multiple variants into one. They are recognizable by their name starting with the letter "X". Among the recombinants, only XBB is currently monitored. The other recombinants are not explored.
+Recombinant variants are the fusion of multiple variants into one. They are recognizable by their name starting with the letter "X". Among the recombinants, only the ones described in the Nextstrain clades (e.g., XBB, XEC) are currently monitored. The other recombinants are not explored.
 
 <br>
 
@@ -86,8 +86,10 @@ Recombinant variants are the fusion of multiple variants into one. They are reco
   <p align="center">
   <img height="600" width="90%" alt="Tree of Nextstrain clades" src="https://raw.githubusercontent.com/nextstrain/ncov-clades-schema/master/clades.svg"/>
 </p>
-<figcaption>Phylogenetic relationships of Nextstrain SARS-CoV-2 clades (<a href="https://github.com/nextstrain/ncov-clades-schema">source</a>). Credits: <a href="https://nextstrain.org/">Nextstrain</a>.</figcaption>
+<figcaption>Phylogenetic relationships of Nextstrain SARS-CoV-2 clades. Tree generated using <a href="https://codesandbox.io/">CodeSandbox</a> described <a href="https://github.com/nextstrain/ncov-clades-schema">here</a> and <a href="https://github.com/nextstrain/ncov">Nextstrain clades</a> and <a href="https://github.com/cov-lineages/pango-designation">Pango lineages</a> information. 
+
 </figure>
+
 
 
 
