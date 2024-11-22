@@ -78,7 +78,7 @@ Changes in the genetic code of the SARS-CoV-2 virus occur as it spreads through 
 
 The familiar Greek letter scheme for naming the variants of concern (e.g., Alpha, Delta, Omicron) is derived from the World Health Organization [(WHO)](https://www.who.int/activities/tracking-SARS-CoV-2-variants). However, as variants themselves change over time and give rise to new sub-variants, the WHO naming system has not been specific enough to keep good track of those. As a solution, the [Nextstrain](https://nextstrain.org/) naming system (see chart below) keeps the WHO naming categories but also combines variants into more detailed groups based on genetic similarities (also called *clades*). See  [Nextstrain](https://nextstrain.org/) and [CoVariants](https://covariants.org/) for more information. Nextstrain clades described [here](https://github.com/nextstrain/ncov/blob/80c06c15f0669c5990e0cc03628deeeedca7b720/defaults/clade_display_names.yml) are automatically displayed on the dashboard. 
 
-Recombinant variants are the fusion of multiple variants into one. They are recognizable by their name starting with the letter "X". Among the recombinants, only the ones described in the Nextstrain clades (e.g., XBB, XEC) are currently monitored. The other recombinants are not explored.
+Recombinant variants are the fusion of multiple variants into one. They are recognizable by their name starting with the letter "X". Among the recombinants, only the ones described in the Nextstrain clades (e.g., XBB, XEC) are currently monitored. The other recombinants are not monitored.
 
 <br>
 
