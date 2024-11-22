@@ -84,9 +84,9 @@ Recombinant variants are the fusion of multiple variants into one. They are reco
 
 <figure>
   <p align="center">
-  <img height="600" width="90%" alt="Tree of Nextstrain clades" src="https://raw.githubusercontent.com/nextstrain/ncov-clades-schema/master/clades.svg"/>
+  <img height="600" width="90%" alt="Tree of Nextstrain clades" src="https://github.com/wslh-data/sc2-wastewater-data-dashboard/blob/4b6a0b23c6cc8e74c657eec475bb747f032cf654/data/clades.svg"/>
 </p>
-<figcaption>Phylogenetic relationships of Nextstrain SARS-CoV-2 clades. Tree generated using <a href="https://codesandbox.io/">CodeSandbox</a> described <a href="https://github.com/nextstrain/ncov-clades-schema">here</a> and <a href="https://github.com/nextstrain/ncov">Nextstrain clades</a> and <a href="https://github.com/cov-lineages/pango-designation">Pango lineages</a> information. 
+<figcaption>Phylogenetic relationships of Nextstrain SARS-CoV-2 clades. Tree manually generated using <a href="https://codesandbox.io/">CodeSandbox</a> with the code described <a href="https://github.com/nextstrain/ncov-clades-schema">here</a> using <a href="https://github.com/nextstrain/ncov">Nextstrain clades</a> and <a href="https://github.com/cov-lineages/pango-designation">Pango lineages</a> information. 
 
 </figure>
 
