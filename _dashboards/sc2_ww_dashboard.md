@@ -60,7 +60,7 @@ The Prevalence Report shows by default only the most abundant COVID-19 variant g
 
 The Map or Geographic Report displays pie charts reflecting the relative abundance of the COVID-19 variant groups over the monitored communities.
 
-*By default, the current month is displayed. Click on the "play" button to start the animation. Use the drop-down menu to limit the view to a specific variant group. When you select a variant using the drop-down menu, the plot will show you where and when the variant was first detected. In the resulting view, the circle size is* *proportional to the relative abundance of the selected variant group in wastewater from 0% to 100%. Click over the chart to reveal more information. The variants are listed in the legend in alphabetical order. Data are binned per month.*
+*By default, the current month is displayed. Click on the "play" button to start the animation. Use the drop-down menu to limit the view to a specific variant group. When you select a variant using the drop-down menu, the plot will show you where and when the variant was first detected. In the resulting view, the circle size is* *proportional to the relative abundance of the selected variant group in wastewater from 0% to 100% maximum. Click over the chart to reveal more information. The variants are listed in the legend in alphabetical order. Data are binned per month.*
 
 <br>
 <br>
