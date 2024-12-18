@@ -37,15 +37,6 @@ The diagram above depicts the Pangolin naming scheme, starting with the original
 
 <br>
 <br>
-# Geographic Report 
-<iframe loading="lazy" height="800" width="100%" frameborder="no" scrolling="no" src="https://sc2.slhcddcloud.org/varGeo"><p>Your browser does not support iframes.</p></iframe>
-
-SARS-CoV-2 genomic sequencing and variant tracking is heavily dependent on clinical testing and the collection and transport of samples for sequencing. Due to these conditions there is a wide variability in the collection and sequencing of samples by geographic region in Wisconsin. The Geographic Report indicates the number of available sequences by County within the selected date range. Darker blue counties represent areas with a larger number of sequences while lighter blue and white counties have a fewer number of sequences. Counties that are colored grey indicate regions where there are no sequences available in given date range.
-
-Pie charts placed over each County indicate the number of each major variant. Hovering over the counties will display the number of sequences available and clicking on the pie charts will show the counts of each major variant.
-
-<br>
-<br>
 
 # Additional Resources
 
