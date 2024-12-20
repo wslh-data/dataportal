@@ -18,6 +18,11 @@ collections:
     permalink: /:slug
     sort_by: dashboard-id
 
+  pages:
+    output: true
+    permalink: /:slug
+    sort_by: dashboard-id
+
 supporters:
   - name: AWS Diagnostic Development Initiative (DDI)
     tag_line:
