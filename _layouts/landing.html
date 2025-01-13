@@ -4,15 +4,18 @@
   {% include head.html %}
 
     <body id="page-top" class="index">
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.google_tag}}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.google_tag}}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    {% include landing_header.html %}
-    {% include dashboard_grid.html %}
-    {% include about.html %}
-    {% include support.html %}
-    {% include contact.html %}
-    {% include footer.html %}
-    {% include js.html %}
+      {% include landing_header.html %}
+      {% include dashboard_grid.html %}
+      {% include about.html %}
+      {% include support.html %}
+      {% include contact.html %}
+      {% include footer.html %}
+      {% include js.html %}
 
+      <!-- reCAPTCHA -->
+      <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+    
     </body>
 </html>
