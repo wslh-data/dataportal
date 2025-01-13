@@ -11,7 +11,6 @@ links:
       address: sc2dashboard-search
     - name: Additional Resources
 ---
-
 # Sequencing Report
 <div style="float:left;width:50%">
     <iframe loading="lazy" height="560" width="100%" frameborder="no" scrolling="no" src="https://sc2.slhcddcloud.org/seqTotal"><p>Your browser does not support iframes.</p></iframe>
@@ -31,7 +30,7 @@ The SARS-CoV-2 virus like all viruses continues to change over time. As the viru
 
 Enabling communication of viral variants requires a process of naming and classifying the variants as they emerge. Several methods for SARS-CoV-2 variant classification have been developed but the most widely adopted is the [Pangolin](https://cov-lineages.org/resources/pangolin.html) naming scheme, which provides a dynamic naming approach that can adapt to the evolving virus.
 
-<img width="100%" src="img/assets/pangolin-lineages.png">
+<img width="75%" src="img/assets/pangolin-lineages.png">
 
 The diagram above depicts the Pangolin naming scheme, starting with the original virus the diagram branches into to branches "A" and "B". Subsequent viral descendants are given a increasing numerical suffix i.e. "B.1" or "B.1.3". When the lineage name gets to a length of 5 an alias is given to shorten the overall name. Shown here "BA" is an alias for "B.1.1.529", which results in viral lineages like "BA.2.75" referencing B.1.1.529.2.75. <i>Note for clarity not all possible lineages are shown in the diagram above.</i>
 
