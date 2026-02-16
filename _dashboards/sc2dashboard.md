@@ -11,6 +11,9 @@ links:
       address: sc2dashboard-search
     - name: Additional Resources
 ---
+
+<div id='banner' style='color: #141406; border-left: solid #FFBF47 4px; border-radius: 4px; padding:0.7em;'>We are currently experiencing a disruption in our data connection with GISAID and are working to restore normal updates as quickly as possible. The data shown on this dashboard may be outdated and should be interpreted with caution until the issue is resolved.</div>
+
 # Sequencing Report
 <div style="float:left;width:50%">
     <iframe loading="lazy" height="560" width="100%" frameborder="no" scrolling="no" src="https://sc2.slhcddcloud.org/seqTotal"><p>Your browser does not support iframes.</p></iframe>
