@@ -1,5 +1,5 @@
 ---
-title: WCLN Reporting
+title: Wisconsin Clinical Laboratory Surveillance Reporting
 layout: dashboard
 dashboard-id: 4
 img: lab.png
@@ -9,10 +9,22 @@ alt: Surveillance Data Reporting
 
 ## Submit Results
 
-<div style="font-size:2rem;"> Enter your Lab ID to retrieve the surveillance data reporting submission URL. </div>
+<div style="font-size:2rem;"> 
+Accessing the New Portal
+
+Each laboratory will be assigned a unique reporting URL.
+
+To obtain your URL:
+<ol>
+<li>Enter your <b>Lab ID*</b> in the designated field.</li>
+<li>Your custom reporting link will be generated.</li>
+</ol>
+<i>Please note</i>: Your URL will remain the same and can be saved or bookmarked for future use.
+<br><br>
+*Your <b>Lab ID</b> is the same username you use to log in to the Survey Alchemer reporting portal. It consists of a series of uppercase letters followed by numbers (e.g. LRN999). </div>
 <br>
 <div style="margin: 1.5rem 0;">
-  <label for="labIdInput" style="display:block; font-weight:bold; margin-bottom:0.5rem;">Lab ID</label>
+  <label for="labIdInput" style="display:block; font-weight:bold; margin-bottom:0.5rem; font-size:2rem">Lab ID</label>
   <div style="display:flex; gap:0.5rem; align-items:center;">
     <input type="text" id="labIdInput" placeholder=""
       style="padding:0.4rem 0.6rem; font-size:2rem; border:1px solid #ccc; border-radius:4px; width:400px;">
