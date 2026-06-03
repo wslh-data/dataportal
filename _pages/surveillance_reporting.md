@@ -8,7 +8,7 @@ alt: Surveillance Data Reporting
 ---
 
 ## Submit Results via the New Portal
-
+<br>
 <div style="font-size:2rem;"> 
 Each laboratory has been assigned a unique reporting URL. To obtain your URL:
 <ol>
