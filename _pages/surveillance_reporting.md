@@ -7,17 +7,13 @@ thumbnail: lab.png
 alt: Surveillance Data Reporting
 ---
 
-## Submit Results
+## Submit Results via the New Portal
 
 <div style="font-size:2rem;"> 
-Accessing the New Portal
-
-Each laboratory will be assigned a unique reporting URL.
-
-To obtain your URL:
+Each laboratory has been assigned a unique reporting URL. To obtain your URL:
 <ol>
-<li>Enter your <b>Lab ID*</b> in the designated field.</li>
-<li>Your custom reporting link will be generated.</li>
+<li>Enter your <b>Lab ID*</b> in the designated field below.</li>
+<li>Click on the custom reporting URL that appears.</li>
 </ol>
 <i>Please note</i>: Your URL will remain the same and can be saved or bookmarked for future use.
 <br><br>
