@@ -12,7 +12,7 @@ links:
     - name: Additional Resources
 ---
 
-<div id='banner' style='color: #141406; border-left: solid #FFBF47 4px; border-radius: 4px; padding:0.7em;'>We are currently experiencing a disruption in our data connection with GISAID and are working to restore normal updates as quickly as possible. The data shown on this dashboard may be outdated and should be interpreted with caution until the issue is resolved.</div>
+<div id='banner' role='alert' style='color: #141406; background-color: #fff3b0; border: 2px solid #FFBF47; border-left: solid #E69500 10px; border-radius: 4px; padding: 1em 1.25em; margin: 1em 0; font-size: 1.15em; font-weight: 600; box-shadow: 0 2px 6px rgba(0,0,0,0.2);'>&#9888; We are currently experiencing a disruption in our data connection with GISAID and are working to restore normal updates as quickly as possible. The data shown on this dashboard may be outdated and should be interpreted with caution until the issue is resolved.</div>
 
 # Sequencing Report
 <div style="float:left;width:50%">
@@ -42,8 +42,7 @@ The diagram above depicts the Pangolin naming scheme, starting with the original
 
 # Additional Resources
 
-- #### [CDC COVID Data Tracker](https://covid.cdc.gov/covid-data-tracker/#variant-proportions)
-- #### [Outbreak.info](https://outbreak.info/)
+- #### [CDC COVID Variants and Genomic Surveillance](https://www.cdc.gov/covid/php/variants/variants-and-genomic-surveillance.html)
 - #### [cov-lineages.org](https://cov-lineages.org/)
 - #### [Pangolin](https://cov-lineages.org/resources/pangolin.html)
 - #### [Pango Designation](https://github.com/cov-lineages/pango-designation)
